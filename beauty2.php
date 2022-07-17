@@ -18,9 +18,9 @@
         <i class="fa fa-times" onclick="hideMenu()"></i>
         <ul>
             <li><a class = "active" href="beauty1.html">LUXURY</a></li>         
-            <li><a href="beauty2.html">GLAMOUR</a></li>         
-            <li><a href="beauty3.html">VICIOUS SPA</a></li>         
-            <li><a href="beauty4.html">ANNEX SPA</a></li>               
+            <li><a href="beauty2.php">GLAMOUR</a></li>         
+            <li><a href="beauty3.php">VICIOUS SPA</a></li>         
+            <li><a href="beauty4.php">ANNEX SPA</a></li>               
         </ul>
     </div>
     <i class="fa fa-bars" onclick="showMenu()" ></i>
