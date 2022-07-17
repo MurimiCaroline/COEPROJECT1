@@ -5,30 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COE PROJECT 1</title>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index.css<?php echo time();?>">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
    <div class="back"> 
             <h1><i>SPICE UP YOUR LOOK</i></h1>  
-            <a href="signup.html"><i class="fa fa-sign-in">SIGNUP</i></a>
-            <a class="log" href="login.html"><i class="fa fa-sign-in">LOG IN</i></a>
+            <a href="signup.php"><i class="fa fa-sign-in">SIGNUP</i></a>
+            <a class="log" href="login.php"><i class="fa fa-sign-in">LOG IN</i></a>
           
             <div class="pic">   
             <div class="pics">
-                <a href="beauty1.html"><img src="images/image 8.jpg" ></a>
+                <a href="beauty1.php"><img src="images/image 8.jpg" ></a>
                     <h4>LUXURY</h4>
                 </div>
                 <div class="pics">
-                <a href="beauty2.html"><img src="images/image 7.jpg" ></a>
+                <a href="beauty2.php"><img src="images/image 7.jpg" ></a>
                 <h4>GLAMOUR</h4>
             </div>
             <div class="pics">
-                <a href="beauty3.html"><img src="images/image 5.jpg"></a>
+                <a href="beauty3.php"><img src="images/image 5.jpg"></a>
                     <h4>VICIOUS SPA</h4>
                 </div>
                 <div class="pics">
-                <a href="beauty4.html"><img src="images/image 1.jpg" ></a>
+                <a href="beauty4.php"><img src="images/image 1.jpg" ></a>
                     <h4>ANNEX SPA</h4>
                 </div>
                 </div>
