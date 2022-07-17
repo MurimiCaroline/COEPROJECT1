@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BEAUTY 3</title>
-    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="css/index.css<?php echo time();?>">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
@@ -13,14 +13,14 @@
     <div class="beaut3">
     <h1>SPICE UP YOUR LOOKS</h1>
     <nav>
-        <a class="index" href="index.html">HOME PAGE</a>
+        <a class="index" href="index.php">HOME PAGE</a>
         <div class="links" id="link">
             <i class="fa fa-times" onclick="hideMenu()"></i>
             <ul>
-                <li><a href="beauty1.html">LUXURY</a></li>         
-                <li><a href="beauty2.html">GLAMOUR</a></li>         
-                <li><a href="beauty3.html">VICIOUS SPA</a></li>         
-                <li><a href="beauty4.html">ANNEX SPA</a></li>         
+                <li><a href="beauty1.php">LUXURY</a></li>         
+                <li><a href="beauty2.php">GLAMOUR</a></li>         
+                <li><a href="beauty3.php">VICIOUS SPA</a></li>         
+                <li><a href="beauty4.php">ANNEX SPA</a></li>         
                     
             
             </ul>
